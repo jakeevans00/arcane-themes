@@ -4,6 +4,11 @@
   "description": "arcane inspired vs-code themes",
   "version": "0.0.1",
   "publisher": "jakeevans00",
+  "icon": "./images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakeevans00/arcane-themes"
+  },
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -16,6 +21,11 @@
         "label": "Arcane Jinx",
         "uiTheme": "vs-dark",
         "path": "./themes/jinx.json"
+      },
+      {
+        "label": "Arcane Mel",
+        "uiTheme": "vs",
+        "path": "./themes/mel.json"
       }
     ]
   },
